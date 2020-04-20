@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de tu corazon</title>
+    <link rel="stylesheet" href="banco.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="https://www.grupobancolombia.com/wcm/connect/www.grupobancolombia.com15880/ee7dd34b-761b-4c30-aa99-f34f4d6f9d1d/logo-bancolombia.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_K9HC1202P0TDD0QU21JFGJKV27-ee7dd34b-761b-4c30-aa99-f34f4d6f9d1d-mIKuXxG" alt="" class="logo">
+        <h3 class="usuario"></h3>
+    </header>
+    <main>
+        <form id="registro" action="">
+            <label for="">Nombre</label><br>
+            <input id="usuario" type="text" required><br>
+            <label for="">Saldo</label><br>
+            <input id="saldo" type="number" min="1" required><br>
+            <button type="submit">Enviar</button><br>
+        </form>
+        <div class="login">
+            <p>saldo:</p>
+            <h1 class="saldo"></h1>
+            <div class="botones">
+                <button class="retirar">Retirar</button>
+                <button class="consignar">Consignar</button>
+            </div>
+        </div>
+    </main>
+    <script src="banco.js"></script>
+</body>
+
+</html>
